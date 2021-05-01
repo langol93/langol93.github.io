@@ -28,6 +28,11 @@ jQuery(function($) {
 		Scroll();
 	});
 
+	$('#quote-carousel').carousel({
+		pause: true,
+		interval: 4000,
+	  });
+
 	$('.navbar-collapse ul li a').on('click', function() {  
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 		return false;
