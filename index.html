@@ -78,7 +78,8 @@
             <li class="scroll active"><a href="#home">Home</a></li>
             <li class="scroll"><a href="#services">Usługi</a></li> 
             <li class="scroll"><a href="#about-us">O mnie</a></li>                     
-            <li class="scroll"><a href="#realizacje">Realizacje</a></li>
+            <li class="scroll"><a href="#portfolio">Realizacje</a></li>
+            <li class="scroll"><a href="#rekomendacje">Rekomendacje</a></li>
             <li class="scroll"><a href="#contact">Kontakt</a></li>       
           </ul>
         </div>
@@ -364,7 +365,95 @@
     </div><!-- /#portfolio-single-wrap -->
   </section><!--/#portfolio-->
 
-
+<section id="rekomendacje">
+  <div class="container">
+    <div class="row">
+      <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <h2>Rekomendacje</h2>
+                </div>
+    </div> 
+  </div>
+  <div class='row'>
+    <div class='col-md-offset-2 col-md-8'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+          <li data-target="#quote-carousel" data-slide-to="3"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img  src="https://iwedkarski.pl/gfx/logo.png" style="width: 200px;height:100px;">
+                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                </div>
+                <div class="col-sm-9">
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                  <small>Damian</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img src="data:image/webp;base64,UklGRkIHAABXRUJQVlA4IDYHAABwIwCdASpuAG4APm0wk0akIyGhJ9K+QIANiWcA1BuFH93/HTz18X/nn2k0B/5D9ifwn5M/Kr9y/u/hH8Cv5L1Avxj+Qf4fenwAfjH9G/3v9i9tP1r/Feiv1L80L/XcdBQD/SHoB/8X+Z89355/hv/F/kfgJ/lv9k/5vrVexf9xvZ4/XhA+THm+k+Ndpv81ut/qQber1179Zn4kuNW2y8GOMHmeKzy41nf8F6W1/HdRI387oM9s0s2eueiNaGm7Nol2nDJtQzm6t9hj4Y589ugU8NrYOBI7Km8IxOvHgFdU1iedtq/9iLuAHsukvyJRNAdiN1wrJQv96w6LTDOoFCDaz7etbcKgwH/4ZMGl0lXBSary1t/pxpbfzn0uT1hI6rGE6y7wAP7ZZ/4PPV6P6kKtqTxHE4/sLrJw4/ubHYG0p1g5/rS1MPrdcbVfjF/2/qUhFFBPHCW/Da99LvcJym3JNqdiJ2FckGWutN4J+nBVoDyZYg/qfNkfcjDU1jnfSr7eHz0R5RDerJENi8ViV/QR3Zw5X7wjWyzY0uc3enXn7rGX+YB64BQ2CSXPnaWUhI1yJigxVlyB+FuEPKOl19vYouGUnlXVR/gou8agi1BYrKPmqXC5ybQRlguDbZgaumd1o5mi3qSAogU2n62G2139dCrsUqKu9rTL7kHNaMiG5A/GJRN+yN7lWejotZ1x3ohMjyLYB8v+b/kFxEjU5mJSAbgl6HGTMqbIkxLvlgodeE6uEkfA40YEjHr7ncrnkTOIrcyefNoeAowFotKXocCLF+z2o+vF+0+HNZTKQYPt2sbp+7yxwWrIuMHMexZgUaPhCb/2SeqM4PSlNCO0kgHCcZX4bvl7nGXVS+HDX/ivjCdD8T8cTzTnssqZGFyGTJqRODOJdPVdvte8+4xhbAFeJvN5wluHmQGsFe4glDM9QQ69UTgZrSE47SbBBjwfiniXSZbheoQCY4jNMEWZOJiNPzhIUPJU8ptqdbgcCTCnAa5593eSq2/MCM3RRJFYdyZMPXAsin5O71GfZeFezvhnfIbURN4clq7jbGCveZDdrJdr8/yknU7pZNtAwcjOu0C5Z8UtfzEUKSa9Gj8JDsIm++1SpXfVPEmVi5QknWzZ/aVgGmf4dvU/YBM54DLEOQyIJqX07yxsMF0G9VjvUT/5thEC+lwQTuSXZk4tRLIjksiwt7lWDtKlb4obq4oAy29UgGBiwMZ9fBBLwviL9Db+7M32nqFoqicITcWMY8+pzJi13BSEqhy537ut3plB6+Q/POBbxONwAFhLxdOdqCAfcXnjrH/bL+uAUoz0WUbytSrhs6ln/7iHDkuiHJThP3xZZ4B1vD6YzOQuKf9WPX3OhXSDsjQlKQWu3rVpQSySMiDZMFPktohGVAkT2+rR/5kxo40DtFwyHRkASQA8DeHsYG9OvX1Kz5zOGZhsTAlN/0ECAQkYR5+W3rfxhDDtesMOso58vQg32Ikq4M0RNQSbesCmr0NOLR2BQT2cQ3mtEnv6FjyAGA2QB79qBooSPjFYyGQsM001j9v2AYpL3yK0shKYv/XjzZV/NYugujd1/DB96ba+mv+GDXcbA6YFU/LoLWLKBh5seheeomJfLsz3fN6T9eA/nzvTP8cc06m0UzvEah1pey9ijF2e37+iZggWY/asnWaSUtVtrwLtX2rmidh3Ctzj/lmiF0x5BMVspxQDaGV7Nu7sJkRXEOz02HuoFRoxe5+k9aoigwNDthbn/JIrVvrIgOYPx12pL7DqMn7JysRU7DLOAcjDv+usAsN2We4D5jLEW9YuBjNeW+IF/5K2CQOergQyPlzaADvEZ9DpMTEGv45hMoI0qXYQD8yq8Trr7nM0gJO7a3xG6SANVi+wKhCL6/wHKp1mKPU5fqwvP+cxkN0NiadLS59rk3HA98h+av4sW7mXZrdcv3zyRbuOhV+VtduQSA5br2W+R/yGj8tQyOObsoCIl4GWuhBvLWZlOAZwyeot41pzNpanf+sRd08sIldDbDhvD1yacfqlLt8YY1kFKi+2SuN04H8axFj4X8CpT0UE8nxLoWpW6MuIxaoFFyJPCSpk6qYvGl/4fET1P4gELNVMUZRghh7+sfLSByAEUnsrGdzjUz8+McGd+9O0KDgwVC7nl77216HjV80clLVj9aqTrha5ErVlB/nlvt8wFoi5Qla0jkKivWeGRlegO96dmgAZKjNvAkT58D+tytg3LetBnsFU8eCWFXYdVbY0zgfs/nU57qypN/CaaJ3N6Z+phftGD419Wlu+Awym39mInt/0+WIz8kHiYWdX2IkpQXRsmJEjpK72JnBnM59A+LYjxlk1pYS0Lo1NvZV2M0m3uRhGatgpaixPC64mP9D2TXqbbE5HaYSpL4MDb0kMhKXpJ3B/33n6ZGD3YK4hB+lUQDs8TDpuzSmbFRA5F/9ttOQUtU94eADWy4ZDAAAA" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                  <small>Marta</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img src="https://cbt-leszno.pl/images/logo.png" style="width: 150px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Jest zajebiście.</p>
+                  <small>Radosław</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+   
+         <!-- Quote 4 -->
+        <div class="item">
+          <blockquote>
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <img src="https://www.starczewski.com.pl/wp-content/uploads/2021/01/logo.png" style="width: 200px;height:100px;">
+              </div>
+              <div class="col-sm-9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                <small>Aleksander</small>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
+    </div>
+  </div>
+</div>
+</section>
 
   <section id="contact">
   <iframe  class="wow fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.289047682531!2d17.141376415948844!3d52.36517865544351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045882a416306d%3A0xfd04ce69479700d3!2sTruskawkowa%2018%2C%2063-004%20Gowarzewo!5e0!3m2!1spl!2spl!4v1611664759883!5m2!1spl!2spl" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
